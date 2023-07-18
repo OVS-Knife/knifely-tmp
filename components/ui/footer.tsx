@@ -22,6 +22,9 @@ export default function Footer() {
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-gray-800 font-medium mb-2">Products</h6>
             <ul className="text-sm">
+              <li className="mb-2">
+                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Coming soon...</a>
+              </li>
             </ul>
           </div>
 
@@ -75,7 +78,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">&copy; Knifely.com. All rights reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">&copy; Cruip.com. All rights reserved.</div>
 
         </div>
 
