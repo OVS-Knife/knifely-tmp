@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Simple',
-  description: 'Page description',
+  title: 'Knifely - Sharpening',
+  description: 'Looking for a reliable and professional residential knife sharpening service in Akron? Look no further than Knifely! At Knifely, we understand the importance of having sharp and well-maintained knives in your home or kitchen. That\'s why we offer a wide range of residential knife sharpening services to meet your needs.',
 }
 
 import Hero from '@/components/hero'
@@ -14,9 +14,6 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      <FeaturesBlocks />
-      <Testimonials />
-      <Newsletter />
     </>
   )
 }
