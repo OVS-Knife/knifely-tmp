@@ -47,12 +47,6 @@ export default function ModalVideo({
                   <stop stopColor="#EAEAEA" offset="48.57%" />
                   <stop stopColor="#DFDFDF" stopOpacity="0" offset="100%" />
                 </linearGradient>
-                <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="hero-ill-e">
-                  <stop stopColor="#4FD1C5" offset="0%" />
-                  <stop stopColor="#81E6D9" offset="25.871%" />
-                  <stop stopColor="#338CF5" offset="100%" />
-                </radialGradient>
-                <circle id="hero-ill-d" cx="384" cy="216" r="64" />
               </defs>
               <g fill="none" fillRule="evenodd">
                 <circle fillOpacity=".04" fill="url(#hero-ill-a)" cx="384" cy="216" r="128" />
