@@ -43,8 +43,8 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Industrial Grade Knife Sharpening</h3>
-                <p className="text-xl text-gray-600">Knifely is assoicated with OVS Knife Co. and is is an Ohio based, veteran owned manufacturer and supplier of industrial knives and blades. With over 50 years’ experience </p>
+                <h3 className="h3 mb-3">Industrial Grade</h3>
+                <p className="text-xl text-gray-600">Knifely is an Ohio based, veteran owned manufacturer and supplier of industrial knives and blades. With over 50 years’ experience </p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
