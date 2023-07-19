@@ -55,7 +55,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">Send in Your Knife</div>
-                    <div className="text-gray-600">Use our secure shipping service to send your dull or damaged knife to us. We'll take care of the rest.</div>
+                    <div className="text-gray-600">Drop off your knife at 981 Home Ave in Akron. We'll take care of the rest.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +84,8 @@ export default function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Prompt Return Delivery</div>
-                    <div className="text-gray-600">After the sharpening process, we will ship your knife back promptly, or you can choose to pick it up at our location.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">Prompt Returns</div>
+                    <div className="text-gray-600">After the sharpening process, we will contact you that your knife is ready, and you can choose to pick it up at our location.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
