@@ -1,5 +1,6 @@
 import VideoThumb from '@/public/images/ovs.png'
 import ModalVideo from '@/components/modal-video'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -46,14 +47,13 @@ export default function Hero() {
             </div>
           </div>
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Knifely Demo"
-            video="/videos/OVS.mp4"
-            videoWidth={1920}
-            videoHeight={1080} />
+        <div className="relative flex justify-center mb-8">
+          <Image
+            src={VideoThumb}
+            width={768}
+            height={432}
+            alt="Knifely Demo" />
+        </div>
 
         </div>
 
